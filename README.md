@@ -18,6 +18,8 @@ data/                 contenu, comptes, sauvegardes (non servi en HTTP)
 ## Installation
 
 Node 20+, aucune dépendance à installer.
+Pour une mise en production complète (reverse proxy, HTTPS, vérifications,
+pièges connus) : voir **[DEPLOY.md](DEPLOY.md)**.
 
 ```bash
 git clone git@github.com:ThaJuju/reglement-omerta-legal.git
