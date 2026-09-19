@@ -28,6 +28,25 @@ function toast(msg) {
   toastTimer = setTimeout(() => el.classList.remove('on'), 2000);
 }
 
+/* navigator.clipboard n'existe qu'en contexte sécurisé (HTTPS ou localhost) :
+   repli sur une zone de texte temporaire quand le site est servi en HTTP */
+async function copyText(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    try { await navigator.clipboard.writeText(text); return true; } catch {}
+  }
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly', '');
+  ta.style.cssText = 'position:fixed;top:0;left:-9999px;opacity:0';
+  document.body.append(ta);
+  ta.select();
+  ta.setSelectionRange(0, text.length);
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch {}
+  ta.remove();
+  return ok;
+}
+
 let sections = [];
 
 /* ---------- textes du site ---------- */
@@ -207,13 +226,16 @@ $('#catList').addEventListener('click', e => {
   if (copy) {
     e.stopPropagation();
     const url = location.origin + location.pathname + '#' + cat.id;
-    navigator.clipboard?.writeText(url)
-      .then(() => {
+    copyText(url).then(ok => {
+      if (ok) {
         copy.classList.add('done');
         setTimeout(() => copy.classList.remove('done'), 1400);
         toast('Lien de la section copié');
-      })
-      .catch(() => toast('Copie impossible'));
+      } else {
+        // dernier recours : on sélectionne le lien pour un Ctrl+C manuel
+        prompt('Copie ce lien :', url);
+      }
+    });
     return;
   }
   if (e.target.closest('.cat-head')) { toggleCat(cat); syncExpandBtn(); }
