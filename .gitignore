@@ -1,0 +1,9 @@
+# Données d'exécution : contenu édité depuis le panel, comptes, sessions, sauvegardes
+data/*
+!data/content.example.json
+
+# Divers
+node_modules/
+*.log
+*.tmp
+.DS_Store

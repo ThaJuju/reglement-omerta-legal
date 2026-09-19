@@ -1,0 +1,1005 @@
+{
+ "rev": 1,
+ "updatedAt": "2026-09-19T13:57:00.047Z",
+ "updatedBy": "seed",
+ "site": {
+  "docTitle": "Omerta — Règlement Légal",
+  "metaDesc": "Règlement du pôle Légal : entreprises, métiers, services publics et forces de l ordre.",
+  "brandMark": "O",
+  "brandName": "Omerta",
+  "brandSub": "Règlement · Légal",
+  "heroBadge": "⚖️ Pôle Légal",
+  "heroTitle": "Règlement",
+  "heroTitleAccent": "Légal",
+  "heroDesc": "Entreprises, métiers, services publics et forces de l’ordre : toutes les règles du pôle légal réunies au même endroit. Lis-le attentivement — nul n’est censé l’ignorer.",
+  "tocTitle": "Sommaire",
+  "searchPlaceholder": "Rechercher une règle…",
+  "version": "v1.0",
+  "discordUrl": "",
+  "footer": "Omerta · GTA RP — Règlement Légal"
+ },
+ "sections": [
+  {
+   "emoji": "🏢",
+   "titre": "Entreprises — définition & utilité",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Une entreprise est une entité économique gérée par un ou plusieurs joueurs, reconnue par le gouvernement."
+    },
+    {
+     "t": "rule",
+     "x": "Elle dispose d'un patron, de co-patrons et d'un effectif d'employés."
+    },
+    {
+     "t": "rule",
+     "x": "Chaque entreprise doit avoir une utilité RP claire et une activité régulière."
+    },
+    {
+     "t": "rule",
+     "x": "Les entreprises ont pour objectif de créer du RP, de fournir des services et de participer à la vie économique — pas uniquement de générer de l'argent."
+    },
+    {
+     "t": "rule",
+     "x": "Toute entreprise doit conserver une activité cohérente avec son domaine déclaré."
+    },
+    {
+     "t": "rule",
+     "x": "Tout groupe ou entreprise est autorisé, dans les limites imposées."
+    }
+   ]
+  },
+  {
+   "emoji": "🔢",
+   "titre": "Limites d'effectifs",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Mécaniciens : limités à 25 personnes, sauf autorisation exceptionnelle de la Gestion Légale."
+    },
+    {
+     "t": "rule",
+     "x": "Farms (récolte, traitement, vente) : limitées à 20 personnes."
+    },
+    {
+     "t": "rule",
+     "x": "Boîtes de nuit : limitées à 15 personnes, sauf autorisation exceptionnelle de la Gestion Légale."
+    },
+    {
+     "t": "rule",
+     "x": "Concessionnaires : limités à 20 personnes, sauf autorisation exceptionnelle de la Gestion Légale."
+    },
+    {
+     "t": "rule",
+     "x": "Restaurants : limités à 15 personnes, sauf autorisation exceptionnelle de la Gestion Légale."
+    },
+    {
+     "t": "rule",
+     "x": "LTD : limités à 10 personnes, sauf autorisation exceptionnelle de la Gestion Légale."
+    },
+    {
+     "t": "rule",
+     "x": "Services d'urgence/public : limités à 100 personnes."
+    }
+   ]
+  },
+  {
+   "emoji": "🧭",
+   "titre": "Hiérarchie interne",
+   "items": [
+    {
+     "t": "rule",
+     "x": "**Patron** : responsable légal et hiérarchique, pouvoir décisionnaire absolu ; peut nommer jusqu'à 2 co-patrons ; doit être actif et participer aux réunions de patrons."
+    },
+    {
+     "t": "rule",
+     "x": "**Co-patron** : assiste le patron, avec des pouvoirs de gestion limités selon l'accord du patron."
+    },
+    {
+     "t": "rule",
+     "x": "**Employés** : respectent la hiérarchie, perçoivent un salaire RP, suivent les règles et l'image de l'entreprise."
+    }
+   ]
+  },
+  {
+   "emoji": "💼",
+   "titre": "Patron — obligations & interdits",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Tous les patrons doivent être joignables sur le Discord officiel du serveur."
+    },
+    {
+     "t": "rule",
+     "x": "Les entreprises ne peuvent pas être revendues ; tout changement de patron doit être validé par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "L'argent de l'entreprise appartient exclusivement à l'entreprise."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de quitter son poste en emportant les fonds de la société."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de licencier massivement sans raison RP valable."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'utiliser son statut de patron pour contourner les règles économiques."
+    },
+    {
+     "t": "rule",
+     "x": "Tout abus de gestion peut entraîner une reprise de l'entreprise par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Les patrons doivent justifier les mouvements financiers importants en cas de contrôle."
+    },
+    {
+     "t": "rule",
+     "x": "Tout patron est responsable de la gestion financière, administrative et RP de son entreprise."
+    },
+    {
+     "t": "rule",
+     "x": "Les dirigeants ne peuvent pas fournir de ressources gratuitement ou à prix réduit aux employés pour contourner l'économie."
+    }
+   ]
+  },
+  {
+   "emoji": "📊",
+   "titre": "Gestion, comptabilité & finances",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Tenir à jour par écrit toutes les transactions (document ou Discord de l'entreprise)."
+    },
+    {
+     "t": "rule",
+     "x": "Registres sur Discord ; l'argent de l'entreprise n'est pas personnel ; les dépenses doivent être justifiées RP."
+    },
+    {
+     "t": "rule",
+     "x": "Respecter la grille tarifaire fixée par le patron ; seul un patron peut décider d'appliquer un rabais."
+    },
+    {
+     "t": "warn",
+     "x": "Vol ou usage HRP = renvoi, ban ou wipe."
+    }
+   ]
+  },
+  {
+   "emoji": "💵",
+   "titre": "Salaires, primes & licenciement",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Obligation de verser le salaire à hauteur du travail effectué (sauf contrat lu et signé par l'employé)."
+    },
+    {
+     "t": "rule",
+     "x": "Salaire maximum : 1 900 000 $/semaine (prime comprise), payé chaque week-end."
+    },
+    {
+     "t": "rule",
+     "x": "Le patron peut refuser le paiement en cas d'absence non justifiée (2 jours de contestation)."
+    },
+    {
+     "t": "rule",
+     "x": "Le licenciement doit être justifié RP ; un licenciement abusif entraîne une sanction RP."
+    },
+    {
+     "t": "rule",
+     "x": "Réembauche possible 4 jours après un wipe volontaire ou RP."
+    }
+   ]
+  },
+  {
+   "emoji": "🤝",
+   "titre": "Obligations envers les employés",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Respecter un quota minimum d'activité."
+    },
+    {
+     "t": "rule",
+     "x": "Organiser au minimum 4 événements RP par mois (1 par semaine, validé par le staff)."
+    },
+    {
+     "t": "rule",
+     "x": "Maintenir un dialogue régulier avec les référents et le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Respecter la comptabilité et les documents internes."
+    },
+    {
+     "t": "rule",
+     "x": "Présence et réactivité obligatoires."
+    }
+   ]
+  },
+  {
+   "emoji": "🔄",
+   "titre": "Création, fermeture & changement",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Délégation temporaire à un co-patron possible."
+    },
+    {
+     "t": "rule",
+     "x": "Inactivité prolongée =  transfert de direction par les responsables légaux."
+    },
+    {
+     "t": "rule",
+     "x": "Template de création à remplir auprès des responsables ; ressources de départ via starter pack selon le type d'entreprise."
+    },
+    {
+     "t": "rule",
+     "x": "Causes de fermeture : inactivité, absence RP prolongée, manquements graves, activité illégale non déclarée, ou décision RP validée par le staff."
+    }
+   ]
+  },
+  {
+   "emoji": "⚙️",
+   "titre": "Double job / multi-job",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Interdiction, sauf validation par dossier."
+    },
+    {
+     "t": "rule",
+     "x": "Contrôles réguliers ; sanctions possibles."
+    }
+   ]
+  },
+  {
+   "emoji": "📁",
+   "titre": "Discord & communication interne",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Pas de rôles staff personnalisés."
+    },
+    {
+     "t": "rule",
+     "x": "Les canaux doivent être accessibles aux référents."
+    },
+    {
+     "t": "rule",
+     "x": "Les tickets internes doivent inclure un référent."
+    },
+    {
+     "t": "rule",
+     "x": "Communications RP et professionnelles uniquement ; image et professionnalisme obligatoires."
+    }
+   ]
+  },
+  {
+   "emoji": "🚨",
+   "titre": "Sanctions internes",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Inactivité : avertissement ou changement de poste."
+    },
+    {
+     "t": "rule",
+     "x": "HRP inapproprié : sanctions staff ou blacklist."
+    }
+   ]
+  },
+  {
+   "emoji": "⛔",
+   "titre": "Comportements interdits",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Interdit de créer ou d'utiliser une entreprise pour contourner le règlement illégal."
+    },
+    {
+     "t": "rule",
+     "x": "Les entreprises ne peuvent pas refuser un client sans raison RP valable."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de monopoliser volontairement un service pour nuire au RP des autres."
+    },
+    {
+     "t": "rule",
+     "x": "Les propriétés ne peuvent pas servir à contourner les règles du serveur ou les Safe Zones."
+    }
+   ]
+  },
+  {
+   "emoji": "🌃",
+   "titre": "Night / boîtes de nuit",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Minimum 4 soirées par semaine."
+    },
+    {
+     "t": "rule",
+     "x": "Collaboration obligatoire 2 fois par mois."
+    },
+    {
+     "t": "rule",
+     "x": "Planning hebdomadaire à envoyer aux référents."
+    }
+   ]
+  },
+  {
+   "emoji": "🏪",
+   "titre": "LTD / commerce",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Vente externe uniquement avec des véhicules de service."
+    },
+    {
+     "t": "rule",
+     "x": "Vente devant un autre LTD interdite."
+    },
+    {
+     "t": "rule",
+     "x": "Offres promotionnelles abusives interdites."
+    }
+   ]
+  },
+  {
+   "emoji": "🍔",
+   "titre": "Fast food",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Contrats recommandés."
+    },
+    {
+     "t": "rule",
+     "x": "Vente externe uniquement avec des véhicules de service."
+    }
+   ]
+  },
+  {
+   "emoji": "🌾",
+   "titre": "Farm / agriculture",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Quota minimum d'activité ; minimum 1 événement RP par mois."
+    },
+    {
+     "t": "rule",
+     "x": "Prix d'acquisition : à partir de 13 200 Unions selon l'entreprise, paiement unique."
+    },
+    {
+     "t": "rule",
+     "x": "Production & vente : RP obligatoire, pas de farmer solo, prix au barème gouvernement."
+    },
+    {
+     "t": "rule",
+     "x": "Stock & matériel : usage personnel interdit ; vol = sanction RP et HRP."
+    },
+    {
+     "t": "rule",
+     "x": "Patron / co-patron responsables des finances et de la conformité RP ; employés respectueux, RP et actifs."
+    },
+    {
+     "t": "rule",
+     "x": "Gestion administrative : déclaration obligatoire ; fraude = suspension, retrait de licence ou amende RP."
+    },
+    {
+     "t": "rule",
+     "x": "Interdits majeurs : revendre du farm sans autorisation, usage personnel des fonds, prendre service uniquement pour récolter, employer des civils sans contrat RP, modifier prix/revenus sans validation staff."
+    }
+   ]
+  },
+  {
+   "emoji": "🏘️",
+   "titre": "Agence immobilière",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Examens requis ; respect de la barrière légal/illégal."
+    },
+    {
+     "t": "rule",
+     "x": "Aucun employé ne peut faire de l'illégal."
+    },
+    {
+     "t": "rule",
+     "x": "Achat / location RP : photo, validation staff, channel Discord."
+    }
+   ]
+  },
+  {
+   "emoji": "💸",
+   "titre": "Blanchiment d'argent",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Via entreprises, sous dossier et avec des référents."
+    },
+    {
+     "t": "rule",
+     "x": "Braquage possible pour récupérer 10 % maximum (sous dossier et validation légal/illégal)."
+    },
+    {
+     "t": "rule",
+     "x": "Changement de patron = blanchiment retiré."
+    }
+   ]
+  },
+  {
+   "emoji": "📣",
+   "titre": "Annonces d'entreprise",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Limite de 150 caractères, 2 annonces par 30 minutes."
+    },
+    {
+     "t": "rule",
+     "x": "Interdits : usage personnel, divulgation d'infos privées, contenu provocateur, sexuel ou diffamatoire."
+    },
+    {
+     "t": "rule",
+     "x": "Le patron est responsable des annonces."
+    }
+   ]
+  },
+  {
+   "emoji": "🔧",
+   "titre": "Mécano & garages",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Véhicules autorisés : flatbed, flatbed4, flatbed3, slamtruck, towtruck, towtruck2."
+    },
+    {
+     "t": "rule",
+     "x": "Interdiction de customiser son véhicule sans payer les frais demandés par l'entreprise."
+    },
+    {
+     "t": "rule",
+     "x": "Conduite pro : respect du RP client, tarifs officiels, dépannages hors RP interdits."
+    },
+    {
+     "t": "rule",
+     "x": "Gestion interne : comptabilité Discord, dépôt de kits obligatoire ; patrons responsables des écarts."
+    },
+    {
+     "t": "warn",
+     "x": "Interdit d'abuser des permissions mécano pour des réparations ou full perfs gratuites sur ses véhicules ou ceux de proches (même en crew officiel) : sanction lourde."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'utiliser ses permissions mécano hors service, sans tenue et sans véhicule de service."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'abuser des permissions pour mettre des véhicules en fourrière sans raison valable."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'effectuer des modifications sur un véhicule sans l'accord du propriétaire (sans exception)."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'utiliser les outils du métier pour contourner les conséquences RP d'un accident ou d'une scène."
+    },
+    {
+     "t": "rule",
+     "x": "Les réparations gratuites répétées sont un abus de métier."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de réparer un véhicule engagé dans une scène active de poursuite ou de fusillade."
+    },
+    {
+     "t": "rule",
+     "x": "Tout abus de permissions métier = sanctions RP, retrait du métier ou sanctions administratives."
+    }
+   ]
+  },
+  {
+   "emoji": "🚙",
+   "titre": "Concessionnaires",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Gestion : registre des ventes, contrôle du patron."
+    },
+    {
+     "t": "rule",
+     "x": "Interdits : vendre un véhicule d'entreprise à un civil, vendre un véhicule gratuitement, usage personnel de l'argent, rachat sans accord."
+    },
+    {
+     "t": "rule",
+     "x": "Image & communication : annonces RP, Discord limité à la gestion interne."
+    },
+    {
+     "t": "rule",
+     "x": "Véhicules : vente via la concession uniquement, jamais à titre personnel."
+    }
+   ]
+  },
+  {
+   "emoji": "📰",
+   "titre": "Presse & médias",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Entités légales : Weazel News et Life Invader."
+    },
+    {
+     "t": "rule",
+     "x": "Direction légale ; les employés peuvent avoir une double vie limitée."
+    },
+    {
+     "t": "rule",
+     "x": "Neutralité et comportement stricts."
+    },
+    {
+     "t": "rule",
+     "x": "Contenu publié uniquement sur les plateformes officielles."
+    },
+    {
+     "t": "rule",
+     "x": "La direction est responsable de la ligne éditoriale et de la conformité RP."
+    }
+   ]
+  },
+  {
+   "emoji": "🏠",
+   "titre": "Immobilier",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Statut légal ; confidentialité et professionnalisme obligatoires."
+    },
+    {
+     "t": "rule",
+     "x": "Les propriétés non utilisées depuis plus de 3 mois sont supprimées."
+    },
+    {
+     "t": "rule",
+     "x": "Intérieurs RP : garages en face de la porte, motels réservés, respect de la structure."
+    },
+    {
+     "t": "rule",
+     "x": "Transactions via les outils RP uniquement."
+    },
+    {
+     "t": "rule",
+     "x": "Le vol dans des propriétés en trouvant un code au hasard ou ancien est interdit."
+    },
+    {
+     "t": "subhead",
+     "x": "Règles générales propriétés"
+    },
+    {
+     "t": "rule",
+     "x": "Placez des entrées d'appartements, hangars et points de garage cohérents."
+    },
+    {
+     "t": "rule",
+     "x": "Tout point incohérent peut être supprimé sans remboursement."
+    },
+    {
+     "t": "rule",
+     "x": "Toute propriété doit avoir un accès cohérent et accessible."
+    },
+    {
+     "t": "rule",
+     "x": "Les constructions ou emplacements visant un avantage injustifié sont refusables."
+    },
+    {
+     "t": "rule",
+     "x": "L'administration peut modifier ou supprimer tout aménagement incohérent ou abusif."
+    }
+   ]
+  },
+  {
+   "emoji": "🛎️",
+   "titre": "Gruppe 6",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Société privée de sécurité pour VIP et événements ; véhicules identifiables (GPB G6)."
+    },
+    {
+     "t": "rule",
+     "x": "Mission : protection d'entreprises, d'événements et de lieux RP."
+    },
+    {
+     "t": "rule",
+     "x": "Statut légal : respecter la loi, l'ordre et le protocole RP."
+    },
+    {
+     "t": "rule",
+     "x": "Zones d'action : uniquement dans le cadre de contrats RP."
+    },
+    {
+     "t": "rule",
+     "x": "Équipement : menottes et armes à usage restreint ; tenue officielle obligatoire, aucun équipement hors service."
+    },
+    {
+     "t": "rule",
+     "x": "Organisation : la direction fixe les zones et les règles ; co-patron sous validation."
+    },
+    {
+     "t": "rule",
+     "x": "Employés : rapports d'interventions RP, neutralité, respect de la hiérarchie, aucun multi-job illégal ou public."
+    }
+   ]
+  },
+  {
+   "emoji": "👮",
+   "titre": "SASP — San Andreas State Police",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Le SASP applique la loi dans tout l'État de San Andreas, sous la direction du Chef de la Police."
+    },
+    {
+     "t": "rule",
+     "x": "Il supervise les divisions spécialisées, la Police Scientifique, les Médecins Légistes, le recrutement, la lutte contre la criminalité et la protection des dignitaires."
+    },
+    {
+     "t": "rule",
+     "x": "Postes principaux : Vespucci, Sandy Shores, Roxwood, Cayo, Nueva Habana."
+    },
+    {
+     "t": "rule",
+     "x": "Intégration : rejoindre le Discord SASP ; âge minimum 21 ans RP ; aucun passé illégal ; candidature RP complète et sérieuse."
+    },
+    {
+     "t": "rule",
+     "x": "Conduite & intégrité : RP ripou interdit sauf autorisation staff ; personnage lié à l'illégal interdit ; vol de matériel ou d'uniforme = bannissement définitif / wipe."
+    },
+    {
+     "t": "rule",
+     "x": "Organisation & slots : aucun autre emploi autorisé ; changement de projet = wipe obligatoire ; le Command Staff peut licencier sans justification."
+    },
+    {
+     "t": "rule",
+     "x": "Équipement & tenue : uniforme obligatoire, matériel rangé hors service, transfert strictement interdit."
+    },
+    {
+     "t": "rule",
+     "x": "Procédures : fouilles avec raison RP (exceptions Defcon/alerte), poursuites validées par l'État-major, PIT limité et sur autorisation."
+    },
+    {
+     "t": "rule",
+     "x": "Zones & sécurité : les commissariats sont des zones safe (braquage, prise d'otage, etc. interdits)."
+    },
+    {
+     "t": "rule",
+     "x": "Déontologie & fair-play : jouez fair-play et respectez les arrestations RP."
+    }
+   ]
+  },
+  {
+   "emoji": "🚔",
+   "titre": "Forces de l'ordre — règles générales",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Amendes ignorées = jugement ou mort RP (wipe)."
+    },
+    {
+     "t": "rule",
+     "x": "Toute course-poursuite déclenche une procédure."
+    },
+    {
+     "t": "rule",
+     "x": "RP ripou interdit (sauf sous dossier)."
+    },
+    {
+     "t": "rule",
+     "x": "Descente uniquement sous dossier validé par le commandant staff."
+    },
+    {
+     "t": "rule",
+     "x": "Fear Police : un criminel doit être discret face à la police ; toute action malsaine envers un agent entraîne de lourdes retombées sur lui et son groupe."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de fuir à la nage ou de se déconnecter après une poursuite."
+    }
+   ]
+  },
+  {
+   "emoji": "📋",
+   "titre": "Règlement police",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Les fouilles doivent être justifiées par un motif RP (ex. individu menaçant ; voir l'état du Defcon)."
+    },
+    {
+     "t": "rule",
+     "x": "Obligation de jouer les gardes à vue et de les rendre intéressantes, sans les expédier."
+    },
+    {
+     "t": "rule",
+     "x": "Braquage de supérette : une seule patrouille intervient ; au-delà de deux braqueurs, une deuxième patrouille peut être appelée."
+    },
+    {
+     "t": "rule",
+     "x": "Un agent n'a pas le droit de revendre ou conserver des saisies sans demande ripou validée par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Sanctions cohérentes, justifiées et adaptées à la scène."
+    },
+    {
+     "t": "rule",
+     "x": "Descentes ou interventions dans les QG d'organisation uniquement sur demande validée par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Pose ou retrait d'un bracelet électronique obligatoirement au poste de police ; retrait ailleurs interdit sauf ripou."
+    },
+    {
+     "t": "rule",
+     "x": "Négociation : privilégier l'ouverture d'esprit et une issue pacifique ; en cas de refus ou de violence envers les otages, assaut."
+    },
+    {
+     "t": "warn",
+     "x": "Le Win-RP police est strictement interdit (protéger et servir)."
+    },
+    {
+     "t": "rule",
+     "x": "Les forces de l'ordre ne peuvent pas lancer une scène sans la poursuivre (arrestations, rapports d'intervention…)."
+    },
+    {
+     "t": "rule",
+     "x": "Port de tout équipement de service hors service strictement interdit."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de faire une demande de renfort lorsque vous êtes braqué."
+    },
+    {
+     "t": "rule",
+     "x": "Les contrôles dits « de routine » sont interdits : un motif valable est nécessaire."
+    }
+   ]
+  },
+  {
+   "emoji": "🚑",
+   "titre": "SAMD / EMS — Médical",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Centres : Pillbox, Paleto, Sandy Shores, Roxwood, Cayo, TropiHospital."
+    },
+    {
+     "t": "rule",
+     "x": "Unités spécialisées : chirurgie, psychologie, médecine du travail, laboratoire, service mortuaire."
+    },
+    {
+     "t": "rule",
+     "x": "Objectif : soins complets et réalistes, santé publique RP."
+    },
+    {
+     "t": "rule",
+     "x": "Recrutement : Discord SAMD, candidature, entretien, formation RP obligatoire, cohérence RP exigée."
+    },
+    {
+     "t": "rule",
+     "x": "Service & tenue : soin et facturation uniquement en service ; interdit de soigner une connaissance."
+    },
+    {
+     "t": "rule",
+     "x": "Légalité : respecter la loi, aucune participation illégale, véhicules personnels interdits."
+    },
+    {
+     "t": "rule",
+     "x": "Réalisme médical : toute Mort RP doit être validée par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Matériel : transport adapté, vente/don interdit, stockage hors service interdit."
+    },
+    {
+     "t": "rule",
+     "x": "Multi-job interdit."
+    },
+    {
+     "t": "warn",
+     "x": "EMS ripou possible uniquement sur dossier staff validé, sinon WIPE ; toute activité non validée = bannissement permanent."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'émettre plus d'une facture pour une même réanimation ou un même soin à un civil."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de donner ou revendre les équipements EMS (médikits, bandages…)."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'empêcher un EMS de réanimer ou de cacher le corps."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit pour un EMS de refuser de soigner, sauf règle contraire, et interdit de faire de l'illégal sauf accord d'un Gérant Légal."
+    },
+    {
+     "t": "rule",
+     "x": "EMS / Coma : trash talk et interactions interdits ; respect des ordres EMS et des consignes post-soins."
+    }
+   ]
+  },
+  {
+   "emoji": "🏛️",
+   "titre": "DOJ — Justice & gouvernement",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Le gouvernement est supervisé par le Gouverneur et son cabinet ; le DOJ est indépendant mais collabore avec lui."
+    },
+    {
+     "t": "rule",
+     "x": "Élections pour le poste de Gouverneur, sur dossier RP validé par le staff."
+    },
+    {
+     "t": "rule",
+     "x": "Conduite & légalité : RP illégal interdit, vol de matériel public = bannissement ; les locaux officiels sont des zones safe."
+    },
+    {
+     "t": "rule",
+     "x": "Multi-job & slots : aucun autre emploi sauf accord staff ; le Lead peut licencier sans préavis."
+    },
+    {
+     "t": "rule",
+     "x": "Confidentialité : les informations internes sont strictement confidentielles."
+    },
+    {
+     "t": "rule",
+     "x": "DOJ : gestion des affaires judiciaires et du code pénal ; l'accusé est présumé coupable RP jusqu'à preuve contraire ; abus de ressources = sanctions internes."
+    },
+    {
+     "t": "rule",
+     "x": "Gouvernement : confidentialité sur les dossiers et budgets ; respect des délais d'élection ; activité illégale = bannissement permanent."
+    }
+   ]
+  },
+  {
+   "emoji": "🔒",
+   "titre": "Prison fédérale",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Établissement de haute sécurité pour les criminels les plus dangereux."
+    },
+    {
+     "t": "rule",
+     "x": "Peine fédérale possible après une infraction très grave ou un casier lourd (tentatives d'homicide, fusillades répétées, attaques contre les forces de l'ordre, prises d'otages…)."
+    },
+    {
+     "t": "rule",
+     "x": "Violences ou tentative de meurtre sur un agent SASP : éligible à une peine fédérale selon la gravité et l'historique."
+    },
+    {
+     "t": "rule",
+     "x": "Mass RP pleinement appliqué en prison (centaines de détenus, d'agents et de surveillance considérés présents)."
+    },
+    {
+     "t": "warn",
+     "x": "Transfert à Brooling Brook : banni 1 à 3 heures ; le personnage est définitivement supprimé, nouvelle vie obligatoire."
+    },
+    {
+     "t": "rule",
+     "x": "Tout Revenge RP est strictement interdit."
+    },
+    {
+     "t": "rule",
+     "x": "Interdit de transmettre, léguer ou céder ses biens avant le transfert (argent, armes, véhicules, entreprises, propriétés…)."
+    },
+    {
+     "t": "warn",
+     "x": "Tout bien transféré avant un wipe personnage peut être supprimé sans préavis ; donateur et receveur s'exposent à des sanctions (jusqu'au ban)."
+    },
+    {
+     "t": "subhead",
+     "x": "Règlement prison"
+    },
+    {
+     "t": "rule",
+     "x": "Interdit d'incarner un ripou en prison, sauf dossier validé."
+    },
+    {
+     "t": "rule",
+     "x": "Pour toute évasion : faire partie d'un groupe officiel et y être haut gradé."
+    },
+    {
+     "t": "rule",
+     "x": "La prise de service doit obligatoirement s'effectuer à la prison."
+    }
+   ]
+  },
+  {
+   "emoji": "🧾",
+   "titre": "Impôts, taxes & finances",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Vérification de la comptabilité par le ministre des Finances."
+    },
+    {
+     "t": "rule",
+     "x": "Toutes les entreprises doivent payer des taxes."
+    },
+    {
+     "t": "rule",
+     "x": "Contrôle staff : comptabilité, impôts, bénéfices."
+    }
+   ]
+  },
+  {
+   "emoji": "🗂️",
+   "titre": "Règlement patrons",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Communication officielle : toutes les demandes, réclamations et validations passent obligatoirement par les permanents (perma) ; aucune demande en MP n'est traitée."
+    },
+    {
+     "t": "rule",
+     "x": "Inactivité & perte d'entreprise : retrait possible en cas d'inactivité prolongée (absence de participation, d'activité ou de réponse aux relances)."
+    },
+    {
+     "t": "rule",
+     "x": "Changement d'entreprise : motif clair et détaillé exigé ; une demande sans justification suffisante est refusée."
+    },
+    {
+     "t": "rule",
+     "x": "Respect & courtoisie obligatoires ; l'expression des émotions est autorisée si elle reste polie ; le manque de civisme peut entraîner le retrait de l'entreprise."
+    },
+    {
+     "t": "rule",
+     "x": "Les avertissements sont affichés en point d'exclamation rouge (1 point = 1 avertissement)."
+    },
+    {
+     "t": "rule",
+     "x": "En rejoignant et en participant, le patron accepte ces règles ; tout manquement peut entraîner la suppression ou la reprise de l'entreprise."
+    }
+   ]
+  },
+  {
+   "emoji": "🎭",
+   "titre": "Projet mixte légal / illégal",
+   "items": [
+    {
+     "t": "rule",
+     "x": "Certaines entreprises peuvent proposer un projet mixte (légal + illégal) sous conditions strictes."
+    },
+    {
+     "t": "rule",
+     "x": "La partie illégale doit obligatoirement apparaître dans le dossier."
+    },
+    {
+     "t": "rule",
+     "x": "Le dossier est soumis au vote des deux pôles : Légal et Illégal."
+    },
+    {
+     "t": "rule",
+     "x": "Entreprises autorisées au double projet : Mécano (2 projets max, cohérence de mapping), Concessionnaire (grande qualité uniquement), Boîte de nuit, Commerce (LTD, Pawn Shop), Restaurant."
+    },
+    {
+     "t": "warn",
+     "x": "Aucune entreprise ne peut mener d'activité illégale sans validation des pôles légal et illégal."
+    }
+   ]
+  }
+ ]
+}

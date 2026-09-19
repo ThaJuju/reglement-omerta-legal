@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Panel staff — Règlement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FBBF24'/%3E%3Ctext x='16' y='23' font-size='17' text-anchor='middle' fill='%23241a02' font-family='sans-serif' font-weight='bold'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="panel.css">
+</head>
+<body class="admin">
+<div class="glow g1"></div><div class="glow g2"></div>
+
+<!-- ============ CONNEXION ============ -->
+<div class="login-screen" id="loginScreen" hidden>
+  <form class="login-box" id="loginForm">
+    <div class="login-mark">S</div>
+    <h1 class="login-title">Panel staff</h1>
+    <p class="login-sub">Règlement Légal — accès réservé</p>
+    <div class="err" id="loginErr" hidden></div>
+    <label class="field">
+      <span>Identifiant</span>
+      <input name="username" autocomplete="username" required autofocus>
+    </label>
+    <label class="field">
+      <span>Mot de passe</span>
+      <input name="password" type="password" autocomplete="current-password" required>
+    </label>
+    <button class="btn btn-primary btn-block" type="submit" id="loginBtn">Se connecter</button>
+    <a class="login-back" href="../">← Retour au règlement</a>
+  </form>
+</div>
+
+<!-- ============ PANEL ============ -->
+<div id="app" hidden>
+  <header class="topbar">
+    <a class="brand" href="../" target="_blank" rel="noopener">
+      <span class="brand-mark" style="background:linear-gradient(135deg,var(--gold),var(--accent))">S</span>
+      <span class="brand-txt">
+        <span class="brand-name">Panel staff</span>
+        <span class="brand-sub">Règlement Légal</span>
+      </span>
+    </a>
+    <span class="rev-chip" id="revChip">rév. —</span>
+    <span class="dirty-chip" id="dirtyChip" hidden>● modifications non enregistrées</span>
+    <div class="spacer"></div>
+    <a class="btn btn-ghost btn-sm only-wide" href="../" target="_blank" rel="noopener">Voir le site</a>
+    <button class="btn btn-ghost btn-sm only-wide" id="backupsBtn">Historique</button>
+    <button class="btn btn-ghost btn-sm only-wide" id="pwdBtn">Mot de passe</button>
+    <button class="btn btn-primary btn-sm" id="saveBtn" disabled>Enregistrer</button>
+    <button class="btn btn-ghost btn-sm" id="logoutBtn">Quitter</button>
+  </header>
+
+  <div class="admin-tabs">
+    <button class="atab active" data-view="reglement">📋 Règlement</button>
+    <button class="atab" data-view="site">🎨 Textes du site</button>
+  </div>
+
+  <!-- ---------- Vue règlement ---------- -->
+  <main class="admin-wrap" id="viewReglement">
+    <aside class="side">
+      <div class="side-head">
+        <span class="side-title">Sommaire</span>
+        <span class="side-count" id="sideCount">0</span>
+      </div>
+      <input class="side-search" id="sideSearch" placeholder="Filtrer…" autocomplete="off">
+      <div class="side-list" id="sideList"></div>
+      <button class="btn btn-ghost btn-block" id="addSectionBtn">+ Nouvelle section</button>
+      <p class="side-hint">Glisse une section pour la déplacer dans le sommaire.</p>
+    </aside>
+
+    <section class="editor" id="editor">
+      <div class="empty" id="editorEmpty">Sélectionne une section à gauche.</div>
+      <div id="editorBody" hidden>
+        <div class="ed-head">
+          <input class="ed-emoji" id="edEmoji" maxlength="4" title="Emoji de la section">
+          <input class="ed-title" id="edTitle" placeholder="Titre de la section" maxlength="160">
+          <button class="btn btn-ghost btn-sm" id="dupSectionBtn" title="Dupliquer">Dupliquer</button>
+          <button class="btn btn-danger btn-sm" id="delSectionBtn">Supprimer</button>
+        </div>
+        <p class="ed-anchor" id="edAnchor"></p>
+        <div class="items" id="items"></div>
+        <div class="add-row">
+          <button class="btn btn-primary" data-add="rule">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12h14"/></svg>
+            Ajouter une règle
+          </button>
+          <span class="add-label">ou</span>
+          <button class="btn btn-ghost btn-sm" data-add="sub">◦ Sous-point</button>
+          <button class="btn btn-ghost btn-sm" data-add="subhead">Intitulé</button>
+          <button class="btn btn-ghost btn-sm" data-add="note">Encadré info</button>
+          <button class="btn btn-ghost btn-sm" data-add="warn">Encadré alerte</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ---------- Vue textes du site ---------- -->
+  <main class="admin-wrap single" id="viewSite" hidden>
+    <section class="editor">
+      <h2 class="site-h">Identité</h2>
+      <div class="grid2" id="siteFields"></div>
+      <p class="side-hint" style="margin-top:22px">
+        Ces champs pilotent l'onglet du navigateur, l'en-tête, le bandeau d'accueil et le pied de page.
+        Le titre d'accueil s'affiche « <em>Titre</em> <em>Accent</em> », l'accent étant coloré en dégradé.
+      </p>
+    </section>
+  </main>
+</div>
+
+<!-- ============ MODALES ============ -->
+<div class="overlay" id="overlay" hidden>
+  <div class="modal" id="modal"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="panel.js"></script>
+</body>
+</html>
